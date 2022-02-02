@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Start Header */
+header {
+    margin: 2rem 10rem;
+}
+
+.header__logo {
+    margin-bottom: 1rem;
+}
+
+.header__logo i {
+    background-color: #002146;
+    color: #eabb0d;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.header__logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin: 3px;
+}
+
+.header__nav {
+    margin-left: 1rem;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+/* End Header */
+
+/* Start Carousel */
+.carousel {
+    background-image: url(../images/2.jpg);
+    height: 800px;
+    max-height: 1000px;
+    margin: 2rem 0;
+}
+/* End Carousel */
+
+/* Start Introduction Items */
+
+.introduction {
+    margin: 4rem 5rem;
+    height: 27rem;
+}
+
+.introduction__content {
+    /* background: red; */
+    float: left;
+    width: 45%;
+}
+
+.introduction__content h2 {
+    padding-bottom: 1rem;
+    font-size: 30px;
+}
+
+.introduction__content p {
+    padding: 1rem 0;
+    color: #797979;
+    font-size: 16px;
+}
+
+.introduction__content button {
+    background-color: #fdc800;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5%;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.introduction__img {
+    /* background: yellow; */
+    float: right;
+    width: 50%;
+}
+
+.introduction__img img {
+    width: 95%;
+}
+/* End Introduction Items */
+
+/* Start Data Items */
+.data {
+    background-color: #f6f6f6;
+    height: 12rem;
+}
+
+.data__content {
+    padding: 3.3rem 0;
+}
+
+.data__item {
+    margin: auto;
+    width: 80%;
+}
+
+.data__item p {
+    float: left;
+}
+
+.data__number {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.data__fact {
+    font-size: 16px;
+    padding: 20px 100px 10px 10px;
+}
+/* End Data Items */
+
+/* Start Courses Items */
+
+.courses__content {
+    width: 90%;
+    margin: 5rem auto;
+    height: 23rem;
+}
+
+.courses__content div {
+    background-color: #002146;
+    height: 170px;
+    width: 20vw;
+    float: left;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.courses__item {
+    padding-top: 1.3rem;
+    cursor: pointer;
+}
+
+.courses__item i {
+    font-size: 50px;
+    margin: 15px;
+}
+
+.courses__item p {
+    font-size: 20px;
+}
+/* End Courses Items */
+
+/* Start Articles Items */
+.articles {
+    background-color: #f6f6f6;
+    height: 800px;
+    padding: 50px 0;
+}
+
+.articles__posts {
+    float: left;
+    width: 730px;
+    height: 80%;
+    margin-right: 2rem;
+}
+
+.articles__posts h2 {
+    margin-left: 5rem;
+    transform: translateY(1rem);
+}
+
+.articles__posts button,
+.articles__events button {
+    float: inline-end;
+    transform: translateX(-30px);
+    border: none;
+    background-color: #fdc800;
+    padding: 12px 25px;
+    border-radius: 5%;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.articles__post {
+   margin: 0 50px;
+   background-color: white;
+   height: 490px;
+   margin: 5rem;
+   margin-right: 2rem;
+   margin-bottom: 20px;
+}
+
+.articles__item {
+    height: 10rem;
+    padding: 25px 16px;
+    padding-right: 1rem;
+}
+
+.articles__item img {
+    width: 150px;
+    float: left;
+    border-radius: 10%;
+    margin-right: 1rem;
+    padding: 5px;
+}
+
+.articles__item h3,
+.event__content h3 {
+    margin-bottom: 10px;
+}
+
+.articles__item p,
+.event__content p {
+    color: #5e5e5e;
+    margin-bottom: 10px;
+}
+
+.articles__item #article__writingDate {
+    color: #979797;
+}
+
+.articles__post hr {
+    border: 1px solid #f9f9f9;
+    width: 95%;
+    margin: auto;
+}
+
+.articles__events {
+    float: left;
+    width: 560px;
+}
+
+.articles__event {
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#event__first {
+    margin-top: 80px;
+}
+
+.event__calendar {
+    float: left;
+    padding: 25px 16px;
+    text-align: center;
+    width: 110px;
+    height: 150px;
+}
+
+#day, #month {
+    background-color: #fdc800;
+}
+
+#day {
+    font-weight: 700;
+    font-size: 25px;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    padding-top: 10px;
+}
+
+#month {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+#year {
+    background-color: #002146;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+}
+
+.event__content {
+    padding: 25px 25px;
+}
+
+.event__time p {
+    color: #002146;
+    display: inline;
+}
+
+.event__time p:first-child {
+    border-right: 1px solid #bababa;
+    padding-right: 15px;
+}
+
+.event__time p:nth-child(2) {
+    padding-left: 10px;
+}
+
+.articles__events button {
+    transform: none;
+}
+/* End Articles Items */
+
+/* Start footer */
+footer {
+    height: 450px;
+    background-color: #002146;
+    color: white;
+    font-size: 18px;
+}
+
+.footer__content {
+    height: 21rem;
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 68px;
+}
+
+.footer__contactInfo,
+.footer__featuredLinks,
+.footer__quickLinks {
+    float: left;
+    height: 230px;
+    width: 360px;
+    margin-right: 60px;
+}
+
+.footer__contactInfo h3,
+.footer__featuredLinks h3,
+.footer__quickLinks h3 {
+    padding-bottom: 32px;
+    font-size: 25px;
+}
+
+.footer__contactInfo p,
+.footer__featuredLinks a,
+.footer__quickLinks a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 16px;
+}
+
+.footer__contactInfo p i {
+    color: #fdc800;
+    margin-right: 16px;
+}
+
+#copyright {
+    width: 1280px;
+    padding-top: 32px;
+    margin: 0 auto;
+}
+
+footer hr {
+    border: 0.8px solid #414d5b;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#copyright span {
+    color: #5e6f83;
+}
+/* End Footer */
+
+/* Start Hover Effect for Buttons */
+.introduction__content button:hover,
+.articles__posts button:hover,
+.articles__events button:hover {
+    background-color: #fd9e00;
+}
+/* End Hover Effect for Buttons */
